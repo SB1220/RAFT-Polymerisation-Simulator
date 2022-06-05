@@ -1,1 +1,7 @@
 # RAFT-Polymerisation-Simulator
+
+Writing a code to study polymer synthesis.
+In particular, the aim will be to model the kinetics of polymerisation and use it to simulate a real experiment with the goal to see how different reactions and their parameters (the kinetic constants of the reactions involved) affect the final chain-length distribution in the system.
+In this regard, one important characteristic of a specific polymerisation technique is its ability to control the polydispersity of the system. It is desirable to obtain a distribution of chain length as sharp as possible and, ideally, would like to have all chains having exactly the same length (although such a perfect degree of control is not practically achievable... Although nature can actually do this with remarkable accuracy!).
+Different polymerisation techniques, e.g., radical, anionic/cationic or condensation polymerisation have quite different
+polydispersity. Even within a certain technique, different schemes and conditions can lead to very large differences. For example, whereas standard radical polymerisation has quite a high degree of polydispersity, 'living' radical polymerisation approaches such as RAFT provides a way to get pretty sharp distributions. In practice, this algorithm will aim to simulate RAFT polymerisation (and somehow compare it to standard radical polymerisation). Moreover, using this code to identify optimum polymerisation parameters for the RAFT process.
